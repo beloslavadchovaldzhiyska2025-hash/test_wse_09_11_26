@@ -18,8 +18,3 @@ else:
             positive_count += 1
 
     print(multiples_of_three)
-
-    if positive_count == 0:
-        print("Няма положителни")
-    else:
-        print(f"{positive_sum / positive_count:.2f}")
